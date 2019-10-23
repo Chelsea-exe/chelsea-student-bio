@@ -4,9 +4,42 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>GUI example from VSCode</title>
+        <title>Contact</title>
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
-        <h1>GUI need love too...</h1>
+            <header id="header">
+                    <div class="box">
+                        <a href="basic-bio.html" id="me">Chelsea Jackson</a>
+                        <nav>
+                          <a href="basic-bio.html">Bio</a>
+                          <a href="portfolio.html">Portfolio</a>
+                          <a href="index.html">Contact</a>
+                        </nav>
+                      </div>
+                </header>
+            <div class="content">
+                <section class="main">
+                        <h1>Contact</h1>
+                        <form id="form">
+                                <ul>
+                                    <li>
+                                        <label for="name">Name</label>
+                                        <input type="text" id="name" name="name" placeholder="" required="required">
+                                    </li>
+                                    <li>
+                                        <label for="email">Email</label>
+                                        <input type="email" id="email" name="email" placeholder="" required="required">
+                                    </li>
+                                    <li>
+                                        <label for="message">Message</label>
+                                        <textarea id="message" name="message" required="required"></textarea>
+                                    </li>
+                                </ul>
+                                <input type="submit">
+                            </form>
+                </section>
+            </div>
     </body>
 </html>
